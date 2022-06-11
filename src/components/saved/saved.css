@@ -1,0 +1,62 @@
+.titleOfSaved p {
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.mainSaved {
+  margin-top: 75px;
+}
+
+.titleOfSaved {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.savedArticle {
+  width: 760px;
+  margin: 0 auto;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.titleOfSavedArticle {
+  font-size: 18px;
+  font-family: Roboto;
+  margin: 20px 0 0 0;
+}
+
+.descOfSavedArticle {
+  font-weight: 300;
+  margin: 10px 0 0 0;
+}
+
+.daleteSavedArticle {
+  color: #0094ff;
+  font-family: Roboto;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.daleteSavedArticle:hover {
+  color: #015d9e;
+}
+
+.dontLogIn {
+  width: 800px;
+  height: 10vh;
+  border: 1px solid #eaeaea;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Roboto;
+  color: rgb(201, 201, 201);
+}

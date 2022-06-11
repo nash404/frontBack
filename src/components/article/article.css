@@ -1,0 +1,102 @@
+.articleElements {
+  width: 800px;
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.titleOfOneArticle {
+  font-size: 22px;
+  font-family: Roboto;
+}
+
+.stylesForArticle img {
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.stylesForArticle {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.commentsArticle {
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.commentsArticle p {
+  font-family: Roboto;
+  font-size: 22px;
+}
+
+.articleUserAva p {
+  font-size: 14px;
+  font-family: Roboto;
+  margin: 0 0 0 10px;
+}
+
+.articleUserAva span {
+  font-size: 14px;
+  color: #939393;
+  font-family: Roboto;
+  margin: 0 0 0 30px;
+}
+
+.articleUserAva {
+  display: flex;
+  align-items: center;
+  margin: 0 0 25px 0;
+}
+
+.articleUserAva img {
+  border-radius: 40px;
+}
+
+.fieldComment {
+  display: grid;
+  grid-template-columns: 8fr 1.5fr;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.fieldComment input {
+  width: 600px;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  color: #b5b5b5;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+}
+
+.fieldComment input::placeholder {
+  color: #b5b5b5;
+  font-family: Roboto;
+}
+
+.stylesForArticle {
+  word-wrap: break-word;
+}
+
+.fieldComment button {
+  background-color: #0094ff;
+  color: #fff;
+  font-family: Roboto;
+  border: 1px solid #0094ff;
+  border-radius: 10px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.fieldComment button:hover {
+  background-color: #006cb9;
+  border: 1px solid #006cb9;
+}

@@ -1,0 +1,56 @@
+.signUpMain {
+  border: 1px solid #eaeaea;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 0px auto;
+  zoom: 1;
+  *display: inline;
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.widthMain p {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #000;
+}
+
+.widthMain input {
+  width: 410px;
+  height: 30px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 0 20px 0 20px;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+
+  color: #cecece;
+}
+
+.widthMain input::placeholder {
+  font-family: Roboto;
+  font-size: 12px;
+
+  color: #cecece;
+}
+
+.widthMain button {
+  background-color: #0094ff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: Roboto;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+}

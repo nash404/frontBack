@@ -1,0 +1,241 @@
+.menu {
+  width: 1100px;
+  height: 80px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+
+  margin: 0% auto; /* Will not center vertically and won't work in IE6/7. */
+  left: 0;
+  right: 0;
+  position: fixed;
+  background: #fff;
+  z-index: 10;
+}
+
+.settignsAndSomething {
+  background: #fff;
+
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 180px;
+  height: 140px;
+  position: fixed;
+  margin-top: 20px;
+  display: none;
+  grid-template-columns: 1fr;
+}
+
+.point {
+  display: grid;
+  justify-items: start;
+  margin: 0 0 0 20px;
+  align-items: center;
+}
+
+.point p {
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 300;
+  font-family: Roboto;
+}
+
+.menuLeft {
+  position: fixed;
+  width: 120px;
+
+  margin-top: 256px;
+}
+
+.menuLeft p {
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.gray {
+  margin: 40px 0 0 0;
+}
+
+.linkRegister {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #0094ff;
+}
+
+.logoWithout {
+  text-decoration: none;
+  color: #000;
+}
+
+.firstPart {
+  display: flex;
+}
+.secondPart {
+  display: grid;
+  justify-items: end;
+  align-items: center;
+}
+
+.signUp {
+  margin: 0 50px 0 0;
+}
+
+.singUpAndIn p {
+  font-size: 16px;
+  font-family: Roboto;
+  color: #0094ff;
+}
+.publishLink {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Roboto;
+  color: #000;
+}
+
+.singUpAndIn {
+  display: flex;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.userInfo p {
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.userInfo img {
+  margin: 0 10px 0 0;
+  border-radius: 50px;
+}
+
+.logo {
+  display: grid;
+  align-items: center;
+}
+
+.searchField input {
+  width: 390px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ebebeb;
+  padding: 0 20px 0 20px;
+  color: #b8b8b8;
+  margin: 0 0 0 50px;
+}
+
+.searchField input::placeholder {
+  color: #b8b8b8;
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.firstPart p {
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.hidedMenu {
+  width: 170px;
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  position: fixed;
+  margin: 170px 0 0 950px;
+  display: block;
+  z-index: 99999999;
+}
+
+.profileImg img {
+  width: 110px;
+  border-radius: 150px;
+}
+
+.nameAndSubsProfile {
+  display: flex;
+  align-items: center;
+}
+
+.subsProfile {
+  margin: 0 0 0 30px;
+  font-family: Roboto;
+  color: #939393;
+  font-size: 16px;
+}
+
+.profileData {
+  display: flex;
+  align-items: center;
+}
+
+.allInfoPro {
+  margin: 0 0 0 10px;
+}
+
+.proName {
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.setNewInfoPro {
+  color: #0094ff;
+  font-family: Roboto;
+  font-size: 16px;
+  margin: 0 0 0 30px;
+  cursor: pointer;
+}
+
+.searchFieldPro input {
+  width: 520px;
+  height: 35px;
+  border-radius: 7px;
+  border: none;
+  background-color: #ebebeb;
+  padding: 0 20px 0 20px;
+  color: #b8b8b8;
+  margin-top: 25px;
+}
+
+.searchFieldPro input::placeholder {
+  color: #b8b8b8;
+  font-size: 13px;
+  font-family: Roboto;
+}
+
+.areaPro textarea {
+  width: 520px;
+  color: #b8b8b8;
+  margin-top: 15px;
+  border-radius: 7px;
+  resize: none;
+  border: none;
+  background-color: #ebebeb;
+  padding: 10px 20px 10px 20px;
+  font-size: 13px;
+  font-family: Roboto;
+}
+
+.areaPro textarea::placeholder {
+  color: #b8b8b8;
+  font-size: 13px;
+  font-family: Roboto;
+}
+
+.savePro {
+  width: 115px;
+  height: 35px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: Roboto;
+  background: #0094ff;
+  border-radius: 10px;
+}

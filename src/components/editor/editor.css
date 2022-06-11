@@ -1,0 +1,276 @@
+.menuEditor {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.firstEditor {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.firstEditor p {
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.userInfoEditor {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: Roboto;
+  margin: 0 0 0 50px;
+}
+
+.userInfoEditor p {
+  margin: 0 0 0 10px;
+}
+
+.userInfoEditor img {
+  border-radius: 50px;
+}
+
+.logoEditor {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.secondEditor {
+  display: grid;
+  justify-items: end;
+}
+
+.secondEditor button {
+  border: 1px solid #0094ff;
+  background-color: #0094ff;
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.editorPlace {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.titleField {
+  width: 800px;
+  height: 30px;
+  border: none;
+  font-size: 22px;
+  color: #000;
+  font-family: Roboto;
+}
+
+.titleField::placeholder {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #000;
+}
+
+.mainEditor {
+  font-size: 16px;
+  width: 800px;
+  outline: none;
+  line-height: 1.5;
+
+  font-family: Roboto;
+  margin-top: 10px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.mainEditor::placeholder {
+  font-size: 16px;
+
+  font-family: Roboto;
+}
+
+.block {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  position: fixed;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+}
+
+.mainEditor img {
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px 0 10px 0;
+}
+
+.block button {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 300;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  transition: 200ms;
+}
+
+.block button:hover {
+  color: rgb(126, 126, 126);
+}
+
+.buttonsEditor {
+  position: fixed;
+
+  display: block;
+  z-index: 99999999;
+}
+
+.rightEditor {
+  margin: 0 0 0 20px;
+}
+
+.h2style {
+  font-size: 18px;
+}
+
+.setBstyle {
+  font-weight: 600;
+}
+
+.setUstyle {
+  text-decoration: underline;
+}
+
+.setNormalstyle {
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+.addImage {
+  position: fixed;
+  top: 100px;
+  left: 400px;
+}
+
+.addImage button {
+  width: 130px;
+  height: 30px;
+  background-color: #0094ff;
+  border: 1px solid #0094ff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.fieldText {
+  outline: none;
+  z-index: 1;
+  font-family: Roboto;
+  font-size: 16px;
+  width: 800px;
+}
+.tools {
+  display: none;
+  padding: 10px 20px 10px 20px;
+  background-color: #fff;
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.tools button {
+  background-color: #fff;
+  border: none;
+}
+
+.addImage {
+  position: fixed;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.editor {
+  width: 800px;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.editor img {
+  width: 100%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+[contenteditable="true"].fieldText {
+  overflow: hidden;
+}
+[contenteditable="true"].fieldText br {
+  display: none;
+}
+[contenteditable="true"].fieldText * {
+  display: inline;
+}
+
+.hiddenField {
+  opacity: 0;
+  margin: 0 0 0 -2000px;
+}
+
+.selectionBlock {
+  background-color: none;
+}
+
+.closeModalImg {
+  background-color: #fff;
+  color: #0094ff;
+  font-family: Roboto;
+  font-size: 16px;
+  border: none;
+  margin: 0 0 0 20px;
+}
+
+.setLinkImg input {
+  width: 280px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #f0f0f0;
+  padding: 0 15px 0 15px;
+  color: #c7c7c7;
+}
+
+.setLinkImg input::placeholder {
+  color: #c7c7c7;
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.addImageModal {
+  background-color: #fff;
+  color: #0094ff;
+  font-family: Roboto;
+  font-size: 16px;
+  border: none;
+  margin: 0 0 0 80px;
+}
+
+.elementOfModal {
+  display: flex;
+  margin: 10px 20px 10px 20px;
+}
+
+.setLinkTitle {
+  font-family: Roboto;
+  font-size: 18px;
+  margin: 5px 0 0 20px;
+}

@@ -1,0 +1,133 @@
+.main {
+  width: 800px;
+  height: 285px;
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid #eaeaea;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.withoutStyles {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto;
+}
+
+.mainBlock {
+  margin-top: 75px;
+  z-index: 12;
+}
+
+.imgOfArticle {
+  width: 350px;
+  height: 285px;
+  background-position: center center;
+  background-size: cover;
+
+  border-radius: 20px;
+}
+
+.infoAboutArticle {
+  padding: 20px;
+}
+
+.nameAndTime {
+  display: flex;
+  align-items: center;
+}
+
+.nameAndAva {
+  display: flex;
+  align-items: center;
+}
+
+.timeOfArticle p {
+  color: #939393;
+  margin: 0 0 0 30px;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.nameAndAva p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 0 10px;
+}
+
+.nameAndAva img {
+  border-radius: 50px;
+}
+.title {
+  display: grid;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.titleOfArticle {
+  word-wrap: break-word;
+  margin: 15px 0 0 0;
+  width: 410px;
+}
+
+.titleOfArticle p {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.descriptionOfArticle {
+  width: 410px;
+  margin: 10px 0 0 0;
+  word-wrap: break-word;
+  font-weight: 300;
+}
+
+.likeAndComments {
+  display: flex;
+  margin: 0 0 0 20px;
+}
+
+.commentOfArticle {
+  font-family: Roboto;
+  color: #0094ff;
+  font-size: 15px;
+  margin: 0 0 0 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.likesOfArticle {
+  font-family: Roboto;
+  color: #bababa;
+  font-size: 15px;
+}
+
+.title {
+  font-family: Roboto;
+  color: #000;
+  display: grid;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-rows: 7.5fr 1fr;
+}
+
+.leftMenu p {
+  cursor: pointer;
+}
+
+.other {
+  color: #b6b6b6;
+}
+
+.bot {
+  margin: 40px 0 0 0;
+}
+
+.saveArticle:hover {
+  color: #015d9e;
+}

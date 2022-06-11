@@ -1,0 +1,48 @@
+.titleSubs {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.titleSubs p {
+  font-family: Roboto;
+  font-size: 24px;
+}
+
+.subsPlace {
+  width: 800px;
+  display: grid;
+  grid-row-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.subsPlace img {
+  width: 70px;
+  border-radius: 50px;
+}
+
+.subName p {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.subCount p {
+  color: #939393;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+.subCount {
+  margin-top: 5px;
+}
+
+.sub {
+  display: flex;
+  align-items: center;
+}
+
+.nameSub {
+  margin: 0 0 0 10px;
+}

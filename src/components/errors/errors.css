@@ -1,0 +1,64 @@
+.errors {
+  position: fixed;
+  z-index: 12;
+
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+
+.Error p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.Error {
+  width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 40px;
+  display: grid;
+  background-color: rgb(240, 97, 97);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.Success {
+  width: 400px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: rgb(90, 196, 107);
+}
+
+.Success p {
+  color: #fff;
+  font-weight: 300;
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.textOfError {
+  display: grid;
+  justify-items: start;
+  margin: 0 0 0 20px;
+}
+
+.closeError {
+  display: grid;
+  justify-items: end;
+  margin: 0 20px 0 0;
+}
+
+.closeError p {
+  cursor: pointer;
+}
